@@ -1,0 +1,25 @@
+.main {
+  width: 100vw;
+  height: 10vh;
+  padding: 1rem 5rem;
+  background-color: antiquewhite;
+}
+.main ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  justify-content: space-between;
+  gap: 2rem;
+  list-style: none;
+}
+
+.main ul li {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+}
+
+.main ul li:hover {
+  background-color: rgb(206, 128, 34);
+}
